@@ -1,0 +1,1 @@
+select TIME_FORMAT(time(submitted_date),'%H') as submitted_hour from purchase_orders;
